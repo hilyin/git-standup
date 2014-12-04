@@ -10,4 +10,4 @@ function yesterworkday()
     fi
 }
 
-git log --since="$(yesterworkday)" --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --author="graham"
+git log --since="$(yesterworkday)" --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --author="Graham Mickle"
